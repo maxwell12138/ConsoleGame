@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ConsoleGame.Element" Collapsed="true">
+    <Position X="9.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAABAAAAAAAAACAAAAAIAAAAAAAAEAAA=</HashCode>
+      <FileName>Element.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConsoleGame.Game">
+    <Position X="2.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAGAAQAAgAAAAATAUAAAAAAAABAIACIAAAAQAEAEIAA=</HashCode>
+      <FileName>Game.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConsoleGame.Block">
+    <Position X="7.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BACgIAAEAQAAAABAAAAIAAEIBAEAgAIABAhQAAIEABA=</HashCode>
+      <FileName>Tetris.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConsoleGame.Tetris">
+    <Position X="0.5" Y="5.75" Width="2" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="ConsoleGame.Tetris.Actions">
+        <TypeIdentifier>
+          <NewMemberFileName>Tetris.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <InheritanceLine Type="ConsoleGame.Game" FixedToPoint="true">
+      <Path>
+        <Point X="3.25" Y="5.103" />
+        <Point X="3.25" Y="5.375" />
+        <Point X="1.417" Y="5.375" />
+        <Point X="1.417" Y="5.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AEAAAQCAAAAAAkAAQAAAAAAAQAEAAAIAAAAQAAAEBAA=</HashCode>
+      <FileName>Tetris.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Snake.Food">
+    <Position X="11.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Snake.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Snake.SnakeBody">
+    <Position X="9.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ggAgAAAAACAAAAAAAAAAAAAAARAAAAIAAQAAAIAEAII=</HashCode>
+      <FileName>Snake.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Snake.Snake">
+    <Position X="3" Y="5.75" Width="4" />
+    <InheritanceLine Type="ConsoleGame.Game" FixedToPoint="true">
+      <Path>
+        <Point X="3.25" Y="5.103" />
+        <Point X="3.25" Y="5.375" />
+        <Point X="5.062" Y="5.375" />
+        <Point X="5.062" Y="5.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAAAAAAAAAAAAAAAAQAIACAAQAAAEAAI=</HashCode>
+      <FileName>Snake.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="微软雅黑" Size="9" />
+</ClassDiagram>
